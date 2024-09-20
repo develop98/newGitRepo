@@ -15,7 +15,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Pending Tasks</h5>
+                    <h5 class="card-title">Pending Tasks Here</h5>
                     <p class="card-text">Total: {{ $pendingTasks->count() }}</p> <!-- Display task count -->
                     <hr style="border: 1px solid black;">
                     @foreach($pendingTasks as $index => $task)
@@ -45,7 +45,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Completed Tasks</h5>
+                    <h5 class="card-title">Completed Tasks Here</h5>
                     <p class="card-text">Total: {{ $completedTasks->count() }}</p>
                     <hr style="border: 1px solid black;">
                     @foreach($completedTasks as $index => $task)
@@ -75,7 +75,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Overdue Tasks</h5>
+                    <h5 class="card-title">Overdue Tasks Here</h5>
                     <p class="card-text">Total: {{ $overdueTasks->count() }}</p>
                     <hr style="border: 1px solid black;">
                     @foreach($overdueTasks as $index => $task)
